@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* .header {
+  margin-bottom: 200px;
+} */
+
+.header__titulo {
+  background-color: #c4c4c4;
+  color: #005677;
+  letter-spacing: 5px;
+  padding: 8px;
+  text-align: center;
+}
+
+#banner {
+  width: 100%;
+  height: 200px;
+}
+/* navbar */
+nav ul {
+  list-style: none;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-weight: 700;
+  padding: 10px;
+}
+/* main */
+
+.main section {
+  width: 100%;
+  height: 10em;
+}
+
+.main section h2 {
+  background-color: #c4c4c4;
+  color: #005677;
+  letter-spacing: 5px;
+}
+
+
+.main__DatosPersonales__ul {
+  margin-left: 2.5em;
+}
+
+.main__DatosPersonales__ul li {
+  font-size: medium;
+}
+.main__DatosPersonales__ul span {
+  font-style: italic;
+  font-weight: bold;
+}
+.main__FormacionAcademica__Datos {
+  font-size: medium;
+}
+
+.main__FormacionAcademica__Datos_p__fecha {
+  font-weight: bold;
+  width: 4.75em;
+}
+
+.main__FormacionAcademica__Datos_p__titulo {
+  margin-left: 4.75em;
+}
+footer {
+  display: flex;
+  background-color: #005677;
+  justify-content: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 1em;
+  color: white;
+  font-weight: bold;
+}
+footer h2 {
+  position: relative;
+  text-align: center;
+}
+.logo {
+  width: 1.5em;
+  height: 1.5em;
+}
